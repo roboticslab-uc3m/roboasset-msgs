@@ -1,0 +1,15 @@
+# Request
+float64[6] goal_pose
+
+---
+# Result
+bool done
+---
+# Feedback
+float64[7] joint_positions
+float64[3] ee_forces
+float64[3] ee_torques
+float64[6] ee_pose
+float64[6] ee_velocity
+# [0,1] fraction of the movement completed
+#float64 completion
