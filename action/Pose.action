@@ -1,15 +1,15 @@
 # Request
-float64[6] goal_pose
-
+#float64[6] goal_pose
+float64[7] goal_pose
+float64 goal_velocity
 ---
 # Result
 bool done
 ---
 # Feedback
 float64[7] joint_positions
-float64[3] ee_forces
-float64[3] ee_torques
-float64[6] ee_pose
-float64[6] ee_velocity
+float64[7] joint_velocities
+#float64[6] cartesian_pose
+#float64[6] cartesian_velocity
 # [0,1] fraction of the movement completed
 #float64 completion
