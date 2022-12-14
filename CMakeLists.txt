@@ -8,6 +8,7 @@ find_package(geometry_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  # Messages
   "msg/PosRot.msg"
   "msg/UnityColor.msg"
   "msg/IiwaMoveitJoints.msg"
@@ -15,11 +16,16 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PoseDetection.msg"
   "msg/Landmarks.msg"
   "msg/VectorLandmarks.msg"
-  # "msg/TouchSensor.msg"
   "msg/ArucoMarkers.msg"
+
+  # Services
   "srv/PositionService.srv"
   "srv/ObjectPoseService.srv"
+  "srv/ControlModeService.srv"
+
+  # Action-Server
   "action/Pose.action"
+
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
  )
 
