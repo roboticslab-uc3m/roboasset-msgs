@@ -1,0 +1,4 @@
+geometry_msgs/PoseArray pose_trajectory
+---
+geometry_msgs/PoseArray r3_bezier_curves
+geometry_msgs/PoseArray so3_bezier_curves
