@@ -4,4 +4,4 @@ float32 t_end
 float32 duration
 bool equidistant
 ---
-geometry_msgs/PoseArray r3_bezier_curves
+nav_msgs/Path sampled_path
