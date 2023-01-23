@@ -23,6 +23,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ObjectPoseService.srv"
   "srv/ControlModeService.srv"
   "srv/BezierFitting.srv"
+  "srv/BezierSampling.srv"
 
   # Action-Server
   "action/Pose.action"

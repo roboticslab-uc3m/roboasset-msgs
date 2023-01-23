@@ -1,0 +1,7 @@
+int32 num_samples
+float32 t_start
+float32 t_end
+float32 duration
+bool equidistant
+---
+geometry_msgs/PoseArray r3_bezier_curves
