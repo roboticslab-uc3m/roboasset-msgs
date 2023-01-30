@@ -1,3 +1,4 @@
 int8 control_mode
+string options
 ---
-bool ret_value
+string ret_value
