@@ -13,6 +13,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/IiwaMoveitJoints.msg"
   "msg/IiwaUnity.msg"
   "msg/PoseDetection.msg"
+  "msg/AnglesDetection.msg"
+  "msg/SignalLight.msg"
   "msg/Landmarks.msg"
   "msg/VectorLandmarks.msg"
   # "msg/TouchSensor.msg"
