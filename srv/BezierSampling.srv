@@ -1,0 +1,7 @@
+int32 num_samples
+float32 t_start
+float32 t_end
+float32 duration
+bool equidistant
+---
+nav_msgs/Path sampled_path

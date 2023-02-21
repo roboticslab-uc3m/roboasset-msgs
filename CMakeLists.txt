@@ -5,9 +5,11 @@ project(ros_iiwa_unity_msgs)
 find_package(rosidl_default_generators REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  # Messages
   "msg/PosRot.msg"
   "msg/UnityColor.msg"
   "msg/IiwaMoveitJoints.msg"
@@ -17,12 +19,19 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SignalLight.msg"
   "msg/Landmarks.msg"
   "msg/VectorLandmarks.msg"
-  # "msg/TouchSensor.msg"
   "msg/ArucoMarkers.msg"
+
+  # Services
   "srv/PositionService.srv"
   "srv/ObjectPoseService.srv"
+  "srv/ControlModeService.srv"
+  "srv/BezierFitting.srv"
+  "srv/BezierSampling.srv"
+
+  # Action-Server
   "action/Pose.action"
-  DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
+
+  DEPENDENCIES builtin_interfaces geometry_msgs std_msgs nav_msgs
  )
 
 
