@@ -16,7 +16,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/IiwaUnity.msg"
   "msg/PoseDetection.msg"
   "msg/AnglesDetection.msg"
-  "msg/SignalLight.msg"
+  "msg/TrafficLight.msg"
   "msg/Landmarks.msg"
   "msg/VectorLandmarks.msg"
   "msg/ArucoMarkers.msg"
