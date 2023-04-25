@@ -10,23 +10,24 @@ find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   # Messages
-  "msg/PosRot.msg"
-  "msg/UnityColor.msg"
+  "msg/AnglesDetection.msg"
+  "msg/ArucoMarkers.msg"
+  "msg/CollisionPoint.msg"
   "msg/IiwaMoveitJoints.msg"
   "msg/IiwaUnity.msg"
-  "msg/PoseDetection.msg"
-  "msg/AnglesDetection.msg"
-  "msg/TrafficLight.msg"
   "msg/Landmarks.msg"
+  "msg/PoseDetection.msg"
+  "msg/PosRot.msg"
+  "msg/TrafficLight.msg"
+  "msg/UnityColor.msg"
   "msg/VectorLandmarks.msg"
-  "msg/ArucoMarkers.msg"
 
   # Services
-  "srv/PositionService.srv"
-  "srv/ObjectPoseService.srv"
-  "srv/ControlModeService.srv"
   "srv/BezierFitting.srv"
   "srv/BezierSampling.srv"
+  "srv/ControlModeService.srv"
+  "srv/ObjectPoseService.srv"
+  "srv/PositionService.srv"
 
   # Action-Server
   "action/Pose.action"

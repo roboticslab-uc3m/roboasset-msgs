@@ -1,0 +1,2 @@
+bool is_collision
+geometry_msgs/Point collision_point
