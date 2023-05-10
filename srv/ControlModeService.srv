@@ -1,4 +1,20 @@
+# Change the control mode of the robot
+# More info at https://github.com/roboticslab-uc3m/dual-iiwa-control/blob/main/dual_iiwa_control/robot_controller.py
+# modes are:
+# - 0 : Gravity Compensation
+# - 1 : Torque Control
+# - 3 : Wrench Control
+# - 4 : Joint Impedance Control
+# - 5 : Cartesian Impedance Control
+# - 6 : Cartesian Impedance From Joint Positions
+# - 7 : Cartesian gravity compensation
+
+# the integer representing the control mode
 int8 control_mode
+
+# a string with the encoded options
 string options
 ---
+
+# If not '', contains the error message
 string ret_value

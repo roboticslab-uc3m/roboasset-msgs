@@ -1,3 +1,6 @@
+# ROS2 Message for the media pipe pose detection node
+# contains the 3d position of each detected body landmark
+# in the camera frame
 std_msgs/Header header
 
 geometry_msgs/Point nose

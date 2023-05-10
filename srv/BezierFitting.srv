@@ -1,3 +1,10 @@
+# Interface for the Bezier fitting service
+# the request contains an array of poses
+# and the response contains and array of Nx4 poses
+# where N is the number of Bezier curves and 4 is the number of control points
+# both an Nx4 set of positions and an Nx4 set of orientations are returned
+
+
 geometry_msgs/PoseArray pose_trajectory
 ---
 geometry_msgs/PoseArray r3_bezier_curves

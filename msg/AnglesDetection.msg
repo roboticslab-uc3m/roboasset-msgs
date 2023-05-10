@@ -1,3 +1,6 @@
+# Message for angle measurements between limbs
+# performed by the mediapipe node
+
 std_msgs/Header header
 
 float64 left_adbution

@@ -1,7 +1,21 @@
+# Request to the Bezier fitting service to sample
+# num_sample points along its fitted spline
+
+# Number of samples to take
 int32 num_samples
+
+# Start time for the sampled path
 float32 t_start
+
+# End time for the sampled path
 float32 t_end
+
+# Duration of the sampled path
 float32 duration
+
+# Whether the samples should be equidistant in R3
 bool equidistant
 ---
+
+# The sampled path
 nav_msgs/Path sampled_path
