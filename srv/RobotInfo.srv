@@ -1,0 +1,5 @@
+---
+string urdf_model
+string control_mode
+int num_joints
+float timestep

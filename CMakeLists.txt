@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(ros_iiwa_unity_msgs)
+project(roboasset_msgs)
 
 # find dependencies
 find_package(rosidl_default_generators REQUIRED)
