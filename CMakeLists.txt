@@ -22,6 +22,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TrafficLight.msg"
   "msg/UnityColor.msg"
   "msg/VectorLandmarks.msg"
+  "msg/BezierControlPoints.msg"
+  "msg/BezierSpline.msg"
 
   # Services
   "srv/BezierFitting.srv"

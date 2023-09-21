@@ -8,12 +8,17 @@
 # - 5 : Cartesian Impedance Control
 # - 6 : Cartesian Impedance From Joint Positions
 # - 7 : Cartesian gravity compensation
+# - 8 : Spline impedance control
 
 # the integer representing the control mode
 int8 control_mode
 
 # a string with the encoded options
 string options
+
+# spline for the spline impedance control (only used if control_mode == 8)
+roboasset_msgs/BezierSpline spline
+
 ---
 
 # If not '', contains the error message
