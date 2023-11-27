@@ -31,9 +31,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ControlModeService.srv"
   "srv/ObjectPoseService.srv"
   "srv/PositionService.srv"
+  "srv/RecordTopic.srv"
 
   # Action-Server
   "action/Pose.action"
+  "action/RecordTopic.action"
 
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs nav_msgs
  )
@@ -53,8 +55,3 @@ if(BUILD_TESTING)
 endif()
 
 ament_package()
-
-
-
-
-
