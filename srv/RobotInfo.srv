@@ -1,5 +1,5 @@
 ---
 string urdf_model
 string control_mode
-int num_joints
-float timestep
+int32 num_joints
+float32 timestep
