@@ -12,4 +12,4 @@ geometry_msgs/Point collision_point
 
 # The normal of the surface of the virtual object at the
 # collision point
-geometry_msgs/Vector3 collision_normal
+geometry_msgs/Vector3[] collision_normals
