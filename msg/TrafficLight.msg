@@ -2,6 +2,6 @@
 # each color is set separately.
 # Turn a segment on by setting it to true
 
-bool red false
-bool orange false
-bool green false
+bool red 0
+bool orange 0
+bool green 0
