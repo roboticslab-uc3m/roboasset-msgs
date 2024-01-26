@@ -2,8 +2,10 @@
 
 string filename
 string[] topic_names
+string start_event
+string stop_event
 float32 frequency 0.0
 int32 n_samples 0
-float32 duration 0.0
 ---
-int32 ret_value
+bool success
+string info
