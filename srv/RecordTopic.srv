@@ -1,9 +1,17 @@
 # Start recording a given topic
 
+# filename for the rosbag that will be created
 string filename
+
+# a list of topic names to record
 string[] topic_names
+
+# the event that will trigger the start of the recording
 string start_event
+
+# the event that will trigger the stop of the recording
 string stop_event
+
 float32 frequency 0.0
 int32 n_samples 0
 ---
