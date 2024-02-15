@@ -12,7 +12,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   # Messages
   "msg/AnglesDetection.msg"
   "msg/ArucoMarkers.msg"
+  "msg/BezierControlPoints.msg"
+  "msg/BezierSpline.msg"
   "msg/CollisionPoint.msg"
+  "msg/DelsysEMG.msg"
+  "msg/DelsysIMU.msg"
   "msg/IiwaMoveitJoints.msg"
   "msg/IiwaUnity.msg"
   "msg/Landmarks.msg"
@@ -22,8 +26,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TrafficLight.msg"
   "msg/UnityColor.msg"
   "msg/VectorLandmarks.msg"
-  "msg/BezierControlPoints.msg"
-  "msg/BezierSpline.msg"
 
   # Services
   "srv/BezierFitting.srv"
