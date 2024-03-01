@@ -12,6 +12,12 @@ string start_event
 # the event that will trigger the stop of the recording
 string stop_event
 
+# Maximum time to wait for the start event to be triggered
+float32 timeout 0.0
+
+# Maximum time to wait for the stop event to be triggered
+float32 duration 60.0
+
 float32 frequency 0.0
 int32 n_samples 0
 ---
