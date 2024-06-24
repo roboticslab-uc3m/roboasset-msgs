@@ -1,0 +1,8 @@
+# A simple glob pattern matcher for rosbags
+# Leave empty to match any string
+string glob_pattern
+---
+bool success
+string info
+# A list of rosbags that matched the regex
+string[] filenames

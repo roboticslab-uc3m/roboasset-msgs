@@ -1,0 +1,11 @@
+# The filename of the rosbag to get the info
+string filename
+---
+bool success
+string info
+int64 n_messages
+float64 duration  # in seconds
+string start  # YYYY-MM-DD HH:MM:SS
+string end  # YYYY-MM-DD HH:MM:SS
+string[] topic_names  # names of the topics
+string[] topic_types  # types of the topics

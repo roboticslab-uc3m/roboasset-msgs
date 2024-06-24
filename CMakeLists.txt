@@ -28,12 +28,14 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/VectorLandmarks.msg"
 
   # Services
+  "srv/BagInfo.srv"
   "srv/BezierFitting.srv"
   "srv/BezierSampling.srv"
   "srv/ControlModeService.srv"
   "srv/ObjectPoseService.srv"
   "srv/PositionService.srv"
   "srv/RecordTopic.srv"
+  "srv/SendFiles.srv"
 
   # Action-Server
   "action/Pose.action"
