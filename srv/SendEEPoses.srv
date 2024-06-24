@@ -1,0 +1,7 @@
+# Asks to send a list of Pose msgs from a given topic in a rosbag
+string filename
+string topic_name
+---
+bool success
+string info
+geometry_msgs/Pose[] poses

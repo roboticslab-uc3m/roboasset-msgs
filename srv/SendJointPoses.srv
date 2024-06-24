@@ -1,0 +1,9 @@
+# Asks to send a list of joint poistions from a given topic in a rosbag
+string filename
+string topic_name
+---
+bool success
+string info
+int64 n_joints  # helps to slice the pose array
+int64 n_messages  # helps to slice the pose array
+float32[] joint_values

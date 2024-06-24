@@ -35,7 +35,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ObjectPoseService.srv"
   "srv/PositionService.srv"
   "srv/RecordTopic.srv"
+  "srv/SendEEPoses.srv"
   "srv/SendFiles.srv"
+  "srv/SendJointPoses.srv"
+  "srv/SendWrenches.srv"
 
   # Action-Server
   "action/Pose.action"
