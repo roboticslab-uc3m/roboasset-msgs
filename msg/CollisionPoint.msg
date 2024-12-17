@@ -6,9 +6,11 @@
 # end effector is in collision with the virtual environment
 bool is_collision
 
-# The point closest to the robot's end effector that is
-# in the surface of the virtual object
-geometry_msgs/Point collision_point
+# The distance between the visual sphere representing the robots end effector
+# and the dynamic sphere which collides with the virtual environment
+# IMPORTANT: the direction of the penetration vector is from the virtual object
+# to the robot's end effector
+geometry_msgs/Vector3 penetration_vector
 
 # The normal of the surface of the virtual object at the
 # collision point
