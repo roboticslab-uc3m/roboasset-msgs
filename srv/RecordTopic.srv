@@ -6,6 +6,8 @@ string filename
 # a list of topic names to record
 string[] topic_names
 
+# TODO: allow multiple start and stop events
+
 # the event that will trigger the start of the recording
 string start_event
 
