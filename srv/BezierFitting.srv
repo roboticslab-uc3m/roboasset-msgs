@@ -3,6 +3,12 @@
 # and the response contains and array of position curves
 # and an array of orientation curves
 
+# The poses to fit
 geometry_msgs/PoseArray pose_trajectory
+
+# name of the file to save the fitted bezier splines, if empty the splines are not saved
+string filename
 ---
 roboasset_msgs/FittedBezierSpline fitted_spline
+bool success
+string info
