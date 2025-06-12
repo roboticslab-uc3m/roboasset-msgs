@@ -44,6 +44,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SendFiles.srv"
   "srv/SendJointPoses.srv"
   "srv/SendWrenches.srv"
+  "srv/SetControlModeCobot.srv"
 
   # Action-Server
   "action/Pose.action"
