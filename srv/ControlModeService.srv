@@ -19,6 +19,9 @@ string options
 # spline for the spline impedance control (only used if control_mode == 8)
 roboasset_msgs/BezierSpline spline
 
+# Frame to witch the cartesian control is relative to
+geometry_msgs/Quaternion control_frame
+
 ---
 
 # If not '', contains the error message
